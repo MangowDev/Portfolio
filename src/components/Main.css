@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+div.main-row {
+  margin-top: 50px;
+}
+
+div.main-first-col {
+  padding-right: 30px;
+  color: rgb(205, 219, 250);
+}
+
+div.main-first-col img {
+  border-radius: 200px;
+  width: 350px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.mangodev-div{
+    align-items: center;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.mangodev-div div{
+    background-color: rgb(3, 191, 212);
+    width: 70px;
+    height: 5px;
+    margin-right: 15px;
+    
+}
+
+.mangodev-div span{
+    font-family: "Poppins", serif;
+    font-size: 20px;
+}
+
+div.main-first-col h1 {
+  font-size: 50px;
+  font-family: "Kanit", serif;
+}
+
+div.main-first-col h2 {
+  font-family: "Kanit", serif;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+div.main-first-col p {
+  color: rgb(180, 193, 227);
+  font-family: "Poppins", serif;
+  font-size: 17px;
+}
+
+div.main-second-col {
+  color: rgb(205, 219, 250);
+  padding-left: 30px;
+}
+
+.second-col-title {
+  font-family: "Kanit", serif;
+  margin-bottom: 20px;
+  font-size: 34px;
+}
+
+.tools-col {
+    background-color: rgb(31, 58, 87);
+    padding: 20px 95px;
+    margin: 15px 0px;
+    transition: transform 0.3s ease; 
+  }
+  
+  .tools-col:hover {
+    transform: scale(1.07); 
+    z-index: 1; 
+  }
+  
+
+.tools-col svg {
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tools-col h4 {
+  font-family: "Poppins", serif;
+  margin: 20px 0;
+}
+
+.see-more-button {
+    font-family: "Play", serif;
+    font-size: 18px;
+    padding: 7px 15px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    text-align: center;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+    color: rgb(222, 236, 251);
+    z-index: 0;
+    white-space: nowrap;
+    transition: box-shadow 0.3s ease; 
+  }
+  
+  .see-more-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(3, 191, 212);
+    z-index: -1;
+    transition: left 0.2s ease-in-out;
+  }
+  
+  .see-more-button:hover {
+    color: #ffff;
+    text-shadow: 1px 2px 2px black;
+    box-shadow: 0 4px 10px rgba(3, 179, 198, 0.5); 
+  }
+  
+  .see-more-button:hover::before {
+    left: 0;
+  }
+  
