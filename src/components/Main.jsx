@@ -9,10 +9,6 @@ function Main() {
     <main className="container main-container">
       <div className="row justify-content-center main-row">
         <div className="col-lg-6 col-12 d-flex flex-column align-items-left justify-content-center text-left main-first-col">
-          {/*           <img
-            src="https://cdn-icons-png.freepik.com/512/3686/3686930.png"
-            alt="user-img"
-          ></img> */}
           <div className="mangodev-div">
             <div></div>
             <span>MangoDev</span>
