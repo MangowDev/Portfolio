@@ -9,7 +9,7 @@ body {
   background: linear-gradient(190deg, rgba(3, 25, 49, 1) 35%, rgba(2, 15, 31, 1) 70%, rgba(1, 14, 27, 1) 100%);
 }
 
-h1, h2, h3, h4, p, span{
+h1, h2, h3, h4, h5, h6, p, span{
   text-shadow: 3px 3px 3px  rgb(2, 16, 30);
 }
 

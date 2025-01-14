@@ -1,4 +1,5 @@
 import "./App.css";
+import ProjectsComponent from "./components/ProjectsComponent";
 import AboutMe from "./components/AboutMe";
 import Header from "./components/Header";
 import Main from "./components/Main";
@@ -21,6 +22,7 @@ function App() {
       >
         <Main />
         <AboutMe/>
+        <ProjectsComponent/>
       </div>
     </>
   );

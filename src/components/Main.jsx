@@ -1,5 +1,5 @@
 import "./Main.css";
-import { FaJava, FaJs } from "react-icons/fa";
+import { FaBootstrap, FaJava, FaJs } from "react-icons/fa";
 import { FaFlutter, FaGit, FaPhp, FaReact, FaWordpress } from "react-icons/fa6";
 import { GrMysql } from "react-icons/gr";
 import { SiOdoo, SiSpring } from "react-icons/si";
@@ -80,8 +80,8 @@ function Main() {
                 </a>
               </div>
               <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center tools-col">
-                <SiSpring></SiSpring>
-                <h4>Springboot</h4>
+              <FaBootstrap></FaBootstrap>
+              <h4>Bootstrap</h4>
                 <a href="#">
                   <button className="see-more-button">See More</button>
                 </a>
@@ -103,8 +103,8 @@ function Main() {
                 </a>
               </div>
               <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center tools-col">
-                <SiOdoo></SiOdoo>
-                <h4>Odoo</h4>
+              <SiSpring></SiSpring>
+              <h4>Springboot</h4>
                 <a href="#">
                   <button className="see-more-button">See More</button>
                 </a>

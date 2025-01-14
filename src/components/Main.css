@@ -14,24 +14,23 @@ div.main-first-col img {
   margin-bottom: 40px;
 }
 
-.mangodev-div{
-    align-items: center;
-    display: flex;
-    margin-bottom: 30px;
-    margin-left: 10px;
+.mangodev-div {
+  align-items: center;
+  display: flex;
+  margin-bottom: 30px;
+  margin-left: 10px;
 }
 
-.mangodev-div div{
-    background-color: rgb(3, 191, 212);
-    width: 70px;
-    height: 5px;
-    margin-right: 15px;
-    
+.mangodev-div div {
+  background-color: rgb(0, 135, 150);
+  width: 70px;
+  height: 5px;
+  margin-right: 15px;
 }
 
-.mangodev-div span{
-    font-family: "Poppins", serif;
-    font-size: 20px;
+.mangodev-div span {
+  font-family: "Poppins", serif;
+  font-size: 20px;
 }
 
 div.main-first-col h1 {
@@ -63,17 +62,18 @@ div.main-second-col {
 }
 
 .tools-col {
-    background-color: rgb(31, 58, 87);
-    padding: 20px 95px;
-    margin: 15px 0px;
-    transition: transform 0.3s ease; 
-  }
-  
-  .tools-col:hover {
-    transform: scale(1.07); 
-    z-index: 1; 
-  }
-  
+  background: rgb(24, 45, 66);
+  background: linear-gradient(0deg, rgba(24, 45, 66, 1) 0%, rgb(35, 65, 97) 100%);
+  padding: 20px 95px;
+  margin: 15px 0px;
+  transition: transform 0.3s ease;
+  border: 1px solid #3F75AE;
+}
+
+.tools-col:hover {
+  transform: scale(1.07);
+  z-index: 10;
+}
 
 .tools-col svg {
   font-size: 60px;
@@ -87,41 +87,40 @@ div.main-second-col {
 }
 
 .see-more-button {
-    font-family: "Play", serif;
-    font-size: 18px;
-    padding: 7px 15px;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    text-align: center;
-    width: auto;
-    position: relative;
-    overflow: hidden;
-    text-shadow: 2px 2px 2px  rgb(2, 16, 30);
-    color: rgb(222, 236, 251);
-    z-index: 0;
-    white-space: nowrap;
-    transition: box-shadow 0.3s ease; 
-  }
-  
-  .see-more-button::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(3, 191, 212);
-    z-index: -1;
-    transition: left 0.2s ease-in-out;
-  }
-  
-  .see-more-button:hover {
-    color: #ffff;
-    box-shadow: 0 4px 10px rgba(3, 179, 198, 0.5); 
-  }
-  
-  .see-more-button:hover::before {
-    left: 0;
-  }
-  
+  font-family: "Play", serif;
+  font-size: 18px;
+  padding: 7px 15px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  text-align: center;
+  width: auto;
+  position: relative;
+  overflow: hidden;
+  text-shadow: 2px 2px 2px rgb(2, 16, 30);
+  color: rgb(222, 236, 251);
+  z-index: 0;
+  white-space: nowrap;
+  transition: box-shadow 0.3s ease;
+}
+
+.see-more-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #06a1b3;
+  z-index: -1;
+  transition: left 0.2s ease-in-out;
+}
+
+.see-more-button:hover {
+  color: #ffff;
+  box-shadow: 0 4px 10px rgba(0, 159, 176, 0.5);
+}
+
+.see-more-button:hover::before {
+  left: 0;
+}
