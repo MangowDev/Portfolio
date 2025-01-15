@@ -7,6 +7,12 @@ import { useEffect, useState } from "react";
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
+  const links = {
+    home: "Home",
+    about: "About me",
+    projects: "Projects",
+    contact: "Contact"
+  };
 
   useEffect(() => {
     const timeout = setTimeout(() => setIsVisible(true), 100);
@@ -15,7 +21,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header links={links}/>
       <div
         className={`fade-in ${isVisible ? "fade-in-visible" : ""}`}
         id="content"

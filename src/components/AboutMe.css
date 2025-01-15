@@ -131,3 +131,8 @@
 .about-col .image-container-2:hover {
     transform: scale(1.05); 
 }
+
+#separationBarLanguages{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

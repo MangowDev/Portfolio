@@ -8,36 +8,31 @@ function ProjectsComponent() {
       </div>
       <div className="row justify-content-center projects-row1">
         <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center project-col">
-          <h3>Project name</h3>
+          <h3>Melody Mango</h3>
           <p>
-            Project description Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit.
+            An application made with React and Java Springboot to view your
+            Spotify Stats and share them with your friends.
           </p>
-          <button className="project-button">View Project</button>
         </div>
         <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center project-col">
-          <h3>Project name</h3>
+          <h3>Stafko</h3>
           <p>
-            Project description Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit.
+            Stafko is a simple web application made with React and NestJS that
+            allows users to create, store, and manage projects.
           </p>
-          <button className="project-button">View Project</button>
         </div>
         <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center project-col">
-          <h3>Project name</h3>
+          <h3>Blackjack Mango</h3>
           <p>
-            Project description Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit.
+            A Blackjack web game up to 6 local players made using javascript.
           </p>
-          <button className="project-button">View Project</button>
         </div>
         <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center project-col">
-          <h3>Project name</h3>
+          <h3>Barber mobile app</h3>
           <p>
-            Project description Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit.
+            A mobile app developed with Flutter for users and barbers to manage
+            and quote requested haircuts, created as a group project.
           </p>
-          <button className="project-button">View Project</button>
         </div>
       </div>
       <div className="row justify-content-center project-viewer-row">
@@ -47,36 +42,26 @@ function ProjectsComponent() {
       </div>
       <div className="row justify-content-center projects-row2">
         <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center project-col">
-          <h3>Project name</h3>
+          <h3>Plaxer recreation</h3>
           <p>
-            Project description Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit.
+            A recreation of the Wordpress Plaxer theme made with Bootstrap and
+            some Javascript.
           </p>
-          <button className="project-button">View Project</button>
         </div>
         <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center project-col">
-          <h3>Project name</h3>
-          <p>
-            Project description Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit.
-          </p>
-          <button className="project-button">View Project</button>
+          <h3>DES Cipher app</h3>
+          <p>File encryption application using DES encryption in Java.</p>
         </div>
         <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center project-col">
-          <h3>Project name</h3>
-          <p>
-            Project description Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit.
-          </p>
-          <button className="project-button">View Project</button>
+          <h3>Superchat</h3>
+          <p>A simple local chat app made with Java and Java Swing.</p>
         </div>
         <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center project-col">
-          <h3>Project name</h3>
+          <h3>Library Manager</h3>
           <p>
-            Project description Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit.
+            This Java program consists of managing the database of a library
+            using Hibernate.
           </p>
-          <button className="project-button">View Project</button>
         </div>
       </div>
     </div>

@@ -18,19 +18,14 @@ function AboutMe() {
         <div className="col-lg-6 col-12 d-flex flex-column align-items-left justify-content-center text-left about-col">
           <h2>Formation</h2>
           <div className="about-separation-bar"></div>
-          <p>
-            Passionate about computing since I was a child, eager to continue
-            developing in my programming skills and learning what I am capable
-            of. I consider myself creative and disciplined, motivated to create
-            something new and willing to work as a team.
-          </p>
-          <p>
-            Over the years, I have earned three different qualifications in
-            computing:
-          </p>
+          <h4>Qualifications</h4>
           <span>- Multiplatform Application Developer</span>
           <span>- Web Application Developer</span>
           <span>- Technician in Microsystems and Networks</span>
+          <div className="about-separation-bar" id="separationBarLanguages"></div>
+          <h4>Languages</h4>
+          <span>- Spanish (Native)</span>
+          <span>- English (Level B2 | Cambridge Certificate)</span>
         </div>
       </div>
       <div className="row justify-content-center about-row">

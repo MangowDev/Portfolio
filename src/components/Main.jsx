@@ -20,22 +20,20 @@ function Main() {
             crafted to meet your every need.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            inventore error voluptates officiis quod maiores libero reiciendis
-            eum in et ipsa provident eaque saepe sit eveniet, natus
-            voluptatibus? Repellendus, fugit. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Esse et corporis vero possimus velit
-            eius, sed at eligendi debitis itaque quam dolore ut, dolor illum
-            nobis cumque dicta nisi amet.
+            Passionate about computing since I was a child, eager to continue
+            developing in my programming skills and learning what I am capable
+            of. I consider myself creative and disciplined, motivated to create
+            something new and willing to work as a team.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            inventore error voluptates officiis quod maiores libero reiciendis
-            eum in et ipsa provident eaque saepe sit eveniet, natus
-            voluptatibus? Repellendus, fugit. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Esse et corporis vero possimus velit
-            eius, sed at eligendi debitis itaque quam dolore ut, dolor illum
-            nobis cumque dicta nisi amet.
+            I am driven by the challenge of solving complex problems and turning
+            ideas into reality through technology. My goal is to grow both
+            professionally and personally by contributing to innovative
+            projects, where I can enhance my technical expertise while
+            collaborating with others to achieve impactful results. With a
+            commitment to continuous learning, I am always exploring the latest
+            advancements in the tech industry, ensuring I stay at the forefront
+            of innovation.
           </p>
         </div>
         <div className="col-lg-6 col-12 d-flex flex-column align-items-left justify-content-center text-left main-second-col">
@@ -80,8 +78,8 @@ function Main() {
                 </a>
               </div>
               <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center tools-col">
-              <FaBootstrap></FaBootstrap>
-              <h4>Bootstrap</h4>
+                <FaBootstrap></FaBootstrap>
+                <h4>Bootstrap</h4>
                 <a href="#">
                   <button className="see-more-button">See More</button>
                 </a>
@@ -103,8 +101,8 @@ function Main() {
                 </a>
               </div>
               <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center tools-col">
-              <SiSpring></SiSpring>
-              <h4>Springboot</h4>
+                <SiSpring></SiSpring>
+                <h4>Springboot</h4>
                 <a href="#">
                   <button className="see-more-button">See More</button>
                 </a>

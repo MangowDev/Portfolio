@@ -2,7 +2,7 @@ import logo from "../assets/images/MangoLogo2.png";
 import "./Header.css";
 import { FaHome, FaUser, FaPen, FaPhone } from "react-icons/fa";
 
-function Header() {
+function Header(props) {
   return (
     <header>
       <img className="logo-header-img" src={logo} alt="user-logo"></img>
@@ -10,25 +10,25 @@ function Header() {
         <a href="#">
           <div className="nav-link-div">
             <FaHome />
-            <span>Home</span>
+            <span>{props.links.home}</span>
           </div>
         </a>
         <a href="#">
           <div className="nav-link-div">
             <FaUser />
-            <span>About me</span>
+            <span>{props.links.about}</span>
           </div>
         </a>
         <a href="#">
           <div className="nav-link-div">
             <FaPen />
-            <span>Projects</span>
+            <span>{props.links.projects}</span>
           </div>
         </a>
         <a href="#">
           <div className="nav-link-div">
             <FaPhone />
-            <span>Contact</span>
+            <span>{props.links.contact}</span>
           </div>
         </a>
       </nav>
