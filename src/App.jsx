@@ -3,6 +3,7 @@ import ProjectsComponent from "./components/ProjectsComponent";
 import AboutMe from "./components/AboutMe";
 import Header from "./components/Header";
 import Main from "./components/Main";
+import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Main />
         <AboutMe/>
         <ProjectsComponent/>
+        <Footer/>
       </div>
     </>
   );
