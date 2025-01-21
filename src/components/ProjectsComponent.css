@@ -26,6 +26,14 @@
   margin-bottom: 30px;
 }
 
+.projects-row1{
+  border-bottom: 4px solid #06a1b3;
+}
+
+.projects-row2{
+  border-top: 4px solid #06a1b3;
+}
+
 
 .projects-row1  .project-col {
   background-color: #23465e;
@@ -123,16 +131,58 @@
   font-weight: 400;
 }
 
-
 .project-viewer-row{
-    border-top: 4px solid #06a1b3;
-    border-bottom: 4px solid #06a1b3;
+    margin: 100px 0;
 }
 
-.project-viewer-col{
-    margin: 200px 0;
+
+.image-container-viewer {
+  position: relative;
+  display: inline-block;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 6px 6px 6px 6px rgb(17, 33, 50);
+  transition: transform 0.3s ease;
+  width: 100%;
+  margin-right: 10px; 
+}
+
+.image-container-viewer img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.image-container-viewer .caption {
+  font-family: "Poppins", serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-container-viewer:hover .caption {
+  opacity: 1; 
+}
+
+.image-container-viewer:hover {
+  transform: scale(1.05); 
+}
+
+
+.project-viewer-col h3{
+  color: rgb(205, 219, 250);
+  margin-left: 10px;
+  font-size: 29px;
 }
 
 .project-viewer-col h1{
-    color: rgb(205, 219, 250)
+  margin: 100px 0;
+  color: rgb(205, 219, 250);
 }
+
