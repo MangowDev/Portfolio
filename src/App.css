@@ -9,6 +9,10 @@ body {
   background: linear-gradient(190deg, rgba(3, 25, 49, 1) 0%, rgba(2, 15, 31, 1) 100%);
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Kanit", serif;
+}
+
 h1, h2, h3, h4, h5, h6, p, span{
   text-shadow: 3px 3px 3px  rgb(2, 16, 30);
 }

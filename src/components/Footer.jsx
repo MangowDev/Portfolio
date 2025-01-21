@@ -10,7 +10,7 @@ function Footer() {
 
   return (
     <footer>
-        <p>© MangoDev - 2025</p>
+        <p>© MangoDev - 2025 | <b>mangodev03@gmail.com</b></p>
         <img className="logo-header-img" src={logo} alt="user-logo"></img>
         <div className="d-flex flex-row align-items-center justify-content-center text-center social-media-div">
           <a href="#"><FaTwitter/></a>
@@ -24,7 +24,6 @@ function Footer() {
             <FaArrowUp/>
           </div>
         </div>
-
     </footer>
   );
 }
