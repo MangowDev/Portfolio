@@ -4,7 +4,7 @@ import ComputerPhoto from "../assets/images/computer.jpg";
 
 function AboutMe() {
   return (
-    <div className="container main-about-container">
+    <div className="container main-about-container" id="aboutMe">
       <div className="row justify-content-center text-center align-items-center title-about-row">
         <h1>About Me</h1>
       </div>
@@ -48,7 +48,6 @@ function AboutMe() {
         <div className="col-lg-6 col-12 d-flex flex-column align-items-center justify-content-center text-center about-col">
           <div className="image-container-2">
             <img src={ComputerPhoto} alt="computer-img" />
-            <div className="caption">- Programmer photo -</div>
           </div>
         </div>
       </div>

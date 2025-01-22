@@ -36,9 +36,9 @@ function ProjectsComponent() {
     "Barber mobile app": {
       img: "src/assets/images/BarberApp.jpg",
       title: "Barber Mobile App",
-      text: "A mobile app developed with Flutter for users and barbers to manage and quote requested haircuts.",
+      text: "A mobile app developed with Flutter for managers and barbers to manage and quote requested haircuts.",
       description:
-      "A recreation of the WordPress Plaxer theme, built using Bootstrap and JavaScript. This project was designed to enhance my design skills, expand my capabilities, and practice implementing Bootstrap effectively.",
+     "A mobile app developed with Flutter for barbers and managers to manage and schedule requested haircuts. The app includes a calendar that displays the barber shop's available slots, allowing barbers to view and select their working hours. Managers have the ability to modify the shop’s opening hours and set holiday closures. Additionally, the app features a WhatsApp integration for direct communication. All data is stored and managed using Firebase.",
      caption: "- Barber mobile app concept photo (To replace) -",
       url: "https://github.com/victryx/peluqueria",
     },
@@ -70,15 +70,18 @@ function ProjectsComponent() {
       url: "https://github.com/MangowDev/Superchat",
     },
     "Library Manager": {
-      img: "imagen8.jpg",
+      img: "src/assets/images/Library.png",
       title: "Library Manager",
       text: "This Java program consists of managing the database of a library using Hibernate.",
+      description:
+      "This Java program consists of managing the database of a library using Hibernate. The SpringBoot-React CRUD Library project is a frontend application developed with Next.js and SpringBoot that enables efficient library management. It provides CRUD (Create, Read, Update, Delete) functionalities for books, users, categories, and loans. Loans require the association of a book and a user, ensuring comprehensive control over the library's lending system.",
+     caption: "- Library manager book list -",
       url: "https://github.com/MangowDev/BibliotecaSpringBoot",
     },
   };
 
   return (
-    <div className="container main-projects-container">
+    <div className="container main-projects-container" id="myProjects">
       <div className="row justify-content-center text-center align-items-center title-projects-row">
         <h1>Projects</h1>
       </div>
