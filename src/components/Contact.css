@@ -1,20 +1,19 @@
 .main-contact-container{
-    margin: 40px 0;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
 }
-
 
 .contact-col h1{
     color: rgb(205, 219, 250);
+    font-size: 50px;
 }
 
 .contact-col p{
     margin-top: 20px;
     margin-bottom: 30px;
-    font-size: 20px;
+    font-size: 22px;
     color: rgb(205, 219, 250);
-}
-
-.social-contact-col{
 }
 
 .social-contact-col a{
@@ -23,9 +22,50 @@
     color: #CDDBFA;
     text-decoration: none;
     margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.social-contact-col a:hover{
+    color: #06a1b3;
+    transition: 0.3s;
 }
 
 .social-contact-col svg{
     margin-bottom: 5px;
     margin-right: 10px;
+}
+
+.contact-col form{
+    margin-left: 50px;
+}
+
+.contact-col input{
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: #1F3A57;
+    outline: none;
+    width: 100%;
+    border: 1px solid #3F75AE;
+    color: #CDDBFA;
+    font-family: "Poppins", serif;
+}
+
+.contact-col textarea{
+    background-color: #1F3A57;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #3F75AE;
+    resize: none;
+    color: #CDDBFA;
+    font-family: "Poppins", serif;
+    height: 200px;
+}
+
+.contact-col input::placeholder{
+    color: #607BB7;
+}
+
+.contact-col textarea::placeholder{
+    color: #607BB7;
 }

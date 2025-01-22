@@ -34,9 +34,9 @@ function App() {
                 className={`fade-in ${isVisible ? "fade-in-visible" : ""}`}
                 id="content"
               >
-                <Main/>
-                <AboutMe/>
-                <ProjectsComponent/>
+                <Main />
+                <AboutMe />
+                <ProjectsComponent />
                 <Footer />
               </div>
             </>
@@ -48,7 +48,9 @@ function App() {
           element={
             <>
               <Header links={links} />
+              <div className="main-content">
                 <Contact />
+              </div>
               <Footer />
             </>
           }

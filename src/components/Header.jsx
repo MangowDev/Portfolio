@@ -1,9 +1,29 @@
 import logo from "../assets/images/MangoLogo2.png";
 import "./Header.css";
 import { FaHome, FaUser, FaPen, FaPhone } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 
 function Header(props) {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleSectionClick = (sectionId) => {
+    if (location.pathname === "/") {
+      const section = document.getElementById(sectionId);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      navigate("/");
+      setTimeout(() => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+          section.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
+    }
+  };
+
   return (
     <header>
       <img className="logo-header-img" src={logo} alt="user-logo"></img>
@@ -14,18 +34,24 @@ function Header(props) {
             <span>{props.links.home}</span>
           </div>
         </Link>
-        <a href="#aboutMe">
-          <div className="nav-link-div">
+        <div
+          className="nav-link-div"
+          onClick={() => handleSectionClick("aboutMe")}
+        >
+          <a>
             <FaUser />
             <span>{props.links.about}</span>
-          </div>
-        </a>
-        <a href="#myProjects">
-          <div className="nav-link-div">
+          </a>
+        </div>
+        <div
+          className="nav-link-div"
+          onClick={() => handleSectionClick("myProjects")}
+        >
+          <a>
             <FaPen />
             <span>{props.links.projects}</span>
-          </div>
-        </a>
+          </a>
+        </div>
         <Link to="/contact">
           <div className="nav-link-div">
             <FaPhone />

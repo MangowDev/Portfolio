@@ -43,21 +43,21 @@ function Main() {
               <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center tools-col">
                 <FaJava></FaJava>
                 <h4>Java</h4>
-                <a href="#">
+                <a href="https://www.java.com/">
                   <button className="see-more-button">See More</button>
                 </a>
               </div>
               <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center tools-col">
                 <FaJs></FaJs>
                 <h4>JavaScript</h4>
-                <a href="#">
+                <a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
                   <button className="see-more-button">See More</button>
                 </a>
               </div>
               <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center tools-col">
                 <FaFlutter></FaFlutter>
                 <h4>Flutter</h4>
-                <a href="#">
+                <a href="https://flutter.dev/">
                   <button className="see-more-button">See More</button>
                 </a>
               </div>
@@ -66,21 +66,21 @@ function Main() {
               <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center tools-col">
                 <FaPhp></FaPhp>
                 <h4>PHP</h4>
-                <a href="#">
+                <a href="https://www.php.net/">
                   <button className="see-more-button">See More</button>
                 </a>
               </div>
               <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center tools-col">
                 <FaReact></FaReact>
                 <h4>React</h4>
-                <a href="#">
+                <a href="https://es.react.dev/">
                   <button className="see-more-button">See More</button>
                 </a>
               </div>
               <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center tools-col">
                 <FaBootstrap></FaBootstrap>
                 <h4>Bootstrap</h4>
-                <a href="#">
+                <a href="https://getbootstrap.com/">
                   <button className="see-more-button">See More</button>
                 </a>
               </div>
@@ -89,21 +89,21 @@ function Main() {
               <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center tools-col">
                 <FaWordpress></FaWordpress>
                 <h4>Wordpress</h4>
-                <a href="#">
+                <a href="https://wordpress.com">
                   <button className="see-more-button">See More</button>
                 </a>
               </div>
               <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center tools-col">
                 <GrMysql></GrMysql>
                 <h4>MySQL</h4>
-                <a href="#">
+                <a href="https://www.mysql.com/">
                   <button className="see-more-button">See More</button>
                 </a>
               </div>
               <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center tools-col">
                 <SiSpring></SiSpring>
                 <h4>Springboot</h4>
-                <a href="#">
+                <a href="https://spring.io/">
                   <button className="see-more-button">See More</button>
                 </a>
               </div>
