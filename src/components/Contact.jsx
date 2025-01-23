@@ -30,6 +30,11 @@ function Contact() {
               </a>
             </div>
           </div>
+          <div className="row justify-content-center social-contact-row">
+            <div className="col-12 d-flex flex-column align-items-left justify-content-left text-left social-contact-col">
+              <span>If you prefer to contact me via Email, you can contact me at: <b>mangodev03@gmail.com</b></span>
+            </div>
+          </div>
         </div>
         <div className="col-lg-6 col-12 d-flex flex-column align-items-left justify-content-left text-left contact-col">
           <form>
@@ -40,6 +45,7 @@ function Contact() {
             <input type="text" placeholder="Website:"></input>
             <br></br>
             <textarea placeholder="Message:"></textarea>
+            <input type="submit" value={"Submit"}></input>
           </form>
         </div>
       </div>
