@@ -1,14 +1,14 @@
 import { useState } from "react";
 import "./ProjectsComponent.css";
 import { FaGithub } from "react-icons/fa";
-import BarberApp from "../assets/images/BarberApp.jpg";
-import BlackjackMango from "../assets/images/BlackjackMango.png";
-import FTP from "../assets/images/FTP.jpg";
-import Library from "../assets/images/Library.png";
-import MelodyMango from "../assets/images/MelodyMango.png";
-import Plaxer from "../assets/images/Plaxer.png";
-import Stafko from "../assets/images/Stafko.png";
-import Superchat from "../assets/images/Superchat.jpg";
+import BarberApp from "../assets/images/BarberApp.webp";
+import BlackjackMango from "../assets/images/BlackjackMango.webp";
+import FTP from "../assets/images/FTP.webp";
+import Library from "../assets/images/Library.webp";
+import MelodyMango from "../assets/images/MelodyMango.webp";
+import Plaxer from "../assets/images/Plaxer.webp";
+import Stafko from "../assets/images/Stafko.webp";
+import Superchat from "../assets/images/Superchat.webp";
 
 function ProjectsComponent() {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -19,11 +19,11 @@ function ProjectsComponent() {
       title: "Melody Mango",
       text: "An application made with React and Java Springboot to view your Spotify Stats and share them with your friends.",
       description:
-       "An application developed with React and Java Spring Boot to explore your Spotify statistics and share them with friends. Created as my final project for Multiplatform Application Development, this app combines two of my greatest passions: music and programming. The app allows users to view their Spotify stats, explore stats from other users, add them as friends, and analyze detailed information about songs and artists.",
+        "An application developed with React and Java Spring Boot to explore your Spotify statistics and share them with friends. Created as my final project for Multiplatform Application Development, this app combines two of my greatest passions: music and programming. The app allows users to view their Spotify stats, explore stats from other users, add them as friends, and analyze detailed information about songs and artists.",
       caption: "- Melody Mango Main Page -",
       url: "https://github.com/MangowDev/MelodyMango",
     },
-    "Stafko": {
+    Stafko: {
       img: Stafko,
       title: "Stafko",
       text: "Stafko is a simple web application made with React and NestJS that allows users to create, store, and manage projects.",
@@ -46,8 +46,8 @@ function ProjectsComponent() {
       title: "Barber Mobile App",
       text: "A mobile app developed with Flutter for managers and barbers to manage and quote requested haircuts.",
       description:
-     "A mobile app developed with Flutter for barbers and managers to manage and schedule requested haircuts. The app includes a calendar that displays the barber shop's available slots, allowing barbers to view and select their working hours. Managers have the ability to modify the shop’s opening hours and set holiday closures. Additionally, the app features a WhatsApp integration for direct communication. All data is stored and managed using Firebase.",
-     caption: "- Barber mobile app concept photo (To replace) -",
+        "A mobile app developed with Flutter for barbers and managers to manage and schedule requested haircuts. The app includes a calendar that displays the barber shop's available slots, allowing barbers to view and select their working hours. Managers have the ability to modify the shop’s opening hours and set holiday closures. Additionally, the app features a WhatsApp integration for direct communication. All data is stored and managed using Firebase.",
+      caption: "- Barber mobile app concept photo (To replace) -",
       url: "https://github.com/victryx/peluqueria",
     },
     "Plaxer recreation": {
@@ -55,8 +55,8 @@ function ProjectsComponent() {
       title: "Plaxer Recreation",
       text: "A recreation of the Wordpress Plaxer theme made with Bootstrap and some JavaScript.",
       description:
-      "A recreation of the WordPress Plaxer theme, built using Bootstrap and JavaScript. This project was designed to enhance my design skills, expand my capabilities, and practice implementing Bootstrap effectively.",
-     caption: "- Plaxer home page -",
+        "A recreation of the WordPress Plaxer theme, built using Bootstrap and JavaScript. This project was designed to enhance my design skills, expand my capabilities, and practice implementing Bootstrap effectively.",
+      caption: "- Plaxer home page -",
       url: "https://github.com/MangowDev/PlaxerRecreation",
     },
     "File Sync Storage App": {
@@ -64,17 +64,17 @@ function ProjectsComponent() {
       title: "FTP Folder Sync App",
       text: "FTP Folder sync application made using Java.",
       description:
-      "FTP Folder sync application made using Java. This app allows you to create two folders that can be synced via FTP, providing a simple solution for creating backups.",
-     caption: "- FTP App concept photo (To replace) -",
+        "FTP Folder sync application made using Java. This app allows you to create two folders that can be synced via FTP, providing a simple solution for creating backups.",
+      caption: "- FTP App concept photo (To replace) -",
       url: "https://github.com/MangowDev/GestionFTP",
     },
-    "Superchat": {
+    Superchat: {
       img: Superchat,
       title: "Superchat",
       text: "A simple local chat app made with Java and Java Swing.",
       description:
-      "A simple local chat application built with Java and Java Swing. This app enables a global chat across multiple instances using TCP, allowing seamless communication between users.",
-     caption: "- Chat concept photo (To replace) -",
+        "A simple local chat application built with Java and Java Swing. This app enables a global chat across multiple instances using TCP, allowing seamless communication between users.",
+      caption: "- Chat concept photo (To replace) -",
       url: "https://github.com/MangowDev/Superchat",
     },
     "Library Manager": {
@@ -82,8 +82,8 @@ function ProjectsComponent() {
       title: "Library Manager",
       text: "This Java program consists of managing the database of a library using Hibernate.",
       description:
-      "This Java program consists of managing the database of a library using Hibernate. The SpringBoot-React CRUD Library project is a frontend application developed with Next.js and SpringBoot that enables efficient library management. It provides CRUD (Create, Read, Update, Delete) functionalities for books, users, categories, and loans. Loans require the association of a book and a user, ensuring comprehensive control over the library's lending system.",
-     caption: "- Library manager book list -",
+        "This Java program consists of managing the database of a library using Hibernate. The SpringBoot-React CRUD Library project is a frontend application developed with Next.js and SpringBoot that enables efficient library management. It provides CRUD (Create, Read, Update, Delete) functionalities for books, users, categories, and loans. Loans require the association of a book and a user, ensuring comprehensive control over the library's lending system.",
+      caption: "- Library manager book list -",
       url: "https://github.com/MangowDev/BibliotecaSpringBoot",
     },
   };
@@ -123,9 +123,9 @@ function ProjectsComponent() {
               <div className="about-separation-bar"></div>
               <p>{selectedProject.description}</p>
               <button className="see-more-button">
-              <a href={selectedProject.url}>
-                <FaGithub /> Visit the repository
-              </a>
+                <a href={selectedProject.url}>
+                  <FaGithub /> Visit the repository
+                </a>
               </button>
             </div>
           </div>

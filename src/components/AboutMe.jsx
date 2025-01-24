@@ -1,6 +1,6 @@
 import "./AboutMe.css";
-import PersonalPhoto from "../assets/images/PersonalPhoto.jpg";
-import ComputerPhoto from "../assets/images/computer.jpg";
+import PersonalPhoto from "../assets/images/PersonalPhoto.webp";
+import ComputerPhoto from "../assets/images/computer.webp";
 
 function AboutMe() {
   return (

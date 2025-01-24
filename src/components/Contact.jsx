@@ -37,7 +37,7 @@ function Contact() {
           </div>
         </div>
         <div className="col-lg-6 col-12 d-flex flex-column align-items-left justify-content-left text-left contact-col">
-          <form>
+          <form action="mailto:mangodev03@gmail.com">
             <input type="text" placeholder="Name:"></input>
             <br></br>
             <input type="email" placeholder="Email:"></input>
