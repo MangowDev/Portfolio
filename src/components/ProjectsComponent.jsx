@@ -1,13 +1,21 @@
 import { useState } from "react";
 import "./ProjectsComponent.css";
 import { FaGithub } from "react-icons/fa";
+import BarberApp from "../assets/images/BarberApp.jpg";
+import BlackjackMango from "../assets/images/BlackjackMango.png";
+import FTP from "../assets/images/FTP.jpg";
+import Library from "../assets/images/Library.png";
+import MelodyMango from "../assets/images/MelodyMango.png";
+import Plaxer from "../assets/images/Plaxer.png";
+import Stafko from "../assets/images/Stafko.png";
+import Superchat from "../assets/images/Superchat.jpg";
 
 function ProjectsComponent() {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = {
     "Melody Mango": {
-      img: "src/assets/images/MelodyMango.png",
+      img: MelodyMango,
       title: "Melody Mango",
       text: "An application made with React and Java Springboot to view your Spotify Stats and share them with your friends.",
       description:
@@ -16,7 +24,7 @@ function ProjectsComponent() {
       url: "https://github.com/MangowDev/MelodyMango",
     },
     "Stafko": {
-      img: "src/assets/images/Stafko.png",
+      img: Stafko,
       title: "Stafko",
       text: "Stafko is a simple web application made with React and NestJS that allows users to create, store, and manage projects.",
       description:
@@ -25,7 +33,7 @@ function ProjectsComponent() {
       url: "https://github.com/MangowDev/Stafko",
     },
     "Blackjack Mango": {
-      img: "src/assets/images/BlackjackMango.png",
+      img: BlackjackMango,
       title: "Blackjack Mango",
       text: "A Blackjack web game up to 6 local players made using JavaScript.",
       description:
@@ -34,7 +42,7 @@ function ProjectsComponent() {
       url: "https://github.com/MangowDev/Blackjack-Mango",
     },
     "Barber mobile app": {
-      img: "src/assets/images/BarberApp.jpg",
+      img: BarberApp,
       title: "Barber Mobile App",
       text: "A mobile app developed with Flutter for managers and barbers to manage and quote requested haircuts.",
       description:
@@ -43,7 +51,7 @@ function ProjectsComponent() {
       url: "https://github.com/victryx/peluqueria",
     },
     "Plaxer recreation": {
-      img: "src/assets/images/Plaxer.png",
+      img: Plaxer,
       title: "Plaxer Recreation",
       text: "A recreation of the Wordpress Plaxer theme made with Bootstrap and some JavaScript.",
       description:
@@ -52,7 +60,7 @@ function ProjectsComponent() {
       url: "https://github.com/MangowDev/PlaxerRecreation",
     },
     "File Sync Storage App": {
-      img: "src/assets/images/FTP.jpg",
+      img: FTP,
       title: "FTP Folder Sync App",
       text: "FTP Folder sync application made using Java.",
       description:
@@ -61,7 +69,7 @@ function ProjectsComponent() {
       url: "https://github.com/MangowDev/GestionFTP",
     },
     "Superchat": {
-      img: "src/assets/images/Superchat.jpg",
+      img: Superchat,
       title: "Superchat",
       text: "A simple local chat app made with Java and Java Swing.",
       description:
@@ -70,7 +78,7 @@ function ProjectsComponent() {
       url: "https://github.com/MangowDev/Superchat",
     },
     "Library Manager": {
-      img: "src/assets/images/Library.png",
+      img: Library,
       title: "Library Manager",
       text: "This Java program consists of managing the database of a library using Hibernate.",
       description:
