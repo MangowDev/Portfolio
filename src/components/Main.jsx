@@ -13,7 +13,7 @@ function Main() {
             <div></div>
             <span>MangoDev</span>
           </div>
-          <h1>Ángel Robles Carrillo</h1>
+          <h1>Ángel Robles</h1>
           <h2>Full-Stack Developer</h2>
           <p>
             Building elegant and interactive web applications with passion,
