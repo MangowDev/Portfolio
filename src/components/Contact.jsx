@@ -37,14 +37,15 @@ function Contact() {
           </div>
         </div>
         <div className="col-lg-6 col-12 d-flex flex-column align-items-left justify-content-left text-left contact-col">
-          <form action="mailto:mangodev03@gmail.com">
-            <input type="text" placeholder="Name:"></input>
+          <form name="contact" netlify>
+            <input type="hidden" name="form-name" value="contact"></input>
+            <input type="text" placeholder="Name:" name="name"></input>
             <br></br>
-            <input type="email" placeholder="Email:"></input>
+            <input type="email" placeholder="Email:" name="email"></input>
             <br></br>
-            <input type="text" placeholder="Website:"></input>
+            <input type="text" placeholder="Website:" name="website"></input>
             <br></br>
-            <textarea placeholder="Message:"></textarea>
+            <textarea placeholder="Message:" name="message"></textarea>
             <input type="submit" value={"Submit"}></input>
           </form>
         </div>
