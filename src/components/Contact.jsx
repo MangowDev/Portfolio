@@ -37,7 +37,7 @@ function Contact() {
           </div>
         </div>
         <div className="col-lg-6 col-12 d-flex flex-column align-items-left justify-content-left text-left contact-col">
-          <form name="contact" netlify>
+          <form netlify-honeypot="bot-field" method="post" name="contact" id="contact" data-netlify="true">
             <input type="hidden" name="form-name" value="contact"></input>
             <input type="text" placeholder="Name:" name="name"></input>
             <br></br>
@@ -46,7 +46,7 @@ function Contact() {
             <input type="text" placeholder="Website:" name="website"></input>
             <br></br>
             <textarea placeholder="Message:" name="message"></textarea>
-            <input type="submit" value={"Submit"}></input>
+            <input type="submit" value="Submit"></input>
           </form>
         </div>
       </div>
