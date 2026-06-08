@@ -26,7 +26,7 @@ function Header(props) {
 
   return (
     <header>
-      <img className="logo-header-img" src={logo} alt="user-logo"></img>
+      <img className="logo-nav-img" src={logo} alt="user-logo"></img>
       <nav>
         <Link to="/">
           <div className="nav-link-div">

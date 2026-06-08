@@ -2,7 +2,8 @@ import "./Main.css";
 import { FaBootstrap, FaJava, FaJs } from "react-icons/fa";
 import { FaFlutter, FaPhp, FaReact, FaWordpress } from "react-icons/fa6";
 import { GrMysql } from "react-icons/gr";
-import { SiSpring } from "react-icons/si";
+import { SiSpring, SiClaude, SiContentful } from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
 import FallingStars from "../utils/FallingStars";
 
 function Main() {
@@ -36,6 +37,12 @@ function Main() {
             commitment to continuous learning, I am always exploring the latest
             advancements in the tech industry, ensuring I stay at the forefront
             of innovation.
+          </p>
+          <p>
+            Furthermore, I closely follow the revolution of Artificial Intelligence and 
+            its role in driving digital innovation. I actively integrate AI-driven tools 
+            and methodologies into my development workflow, constantly adapting to 
+            new paradigms to build smarter, more efficient, and future-proof solutions.
           </p>
         </div>
         <div className="col-lg-6 col-12 d-flex flex-column align-items-left justify-content-center text-left main-second-col">
@@ -106,6 +113,29 @@ function Main() {
                 <SiSpring></SiSpring>
                 <h4>Springboot</h4>
                 <a href="https://spring.io/">
+                  <button className="see-more-button">See More</button>
+                </a>
+              </div>
+            </div>
+            <div className="row justify-content-between tools-row">
+              <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center tools-col">
+                <TbBrandReactNative></TbBrandReactNative>
+                <h4>React Native</h4>
+                <a href="https://reactnative.dev/">
+                  <button className="see-more-button">See More</button>
+                </a>
+              </div>
+              <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center tools-col">
+                <SiClaude></SiClaude>
+                <h4>Claude</h4>
+                <a href="https://www.anthropic.com/claude">
+                  <button className="see-more-button">See More</button>
+                </a>
+              </div>
+              <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center tools-col">
+                <SiContentful></SiContentful>
+                <h4>Contentful</h4>
+                <a href="https://www.contentful.com/">
                   <button className="see-more-button">See More</button>
                 </a>
               </div>

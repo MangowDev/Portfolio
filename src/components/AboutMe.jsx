@@ -32,10 +32,12 @@ function AboutMe() {
         <div className="col-lg-6 col-12 d-flex flex-column align-items-end justify-content-center text-end about-col">
           <h2>Experience</h2>
           <div className="about-separation-bar"></div>
-          <h4>Intern at Guadalinfo Padul - 2021 (Web Development)</h4>
+          <h4>Developer at ECOPE - 2025-2026 (Full-Stack Developer)</h4>
           <p>
-            I get a lot of knowledge about the use of HTML and CSS, certificated
-            from Google.
+            Starting as an intern before transitioning into a full-time role, I
+            gained hands-on experience managing project timelines and delivery dates.
+            Additionally, I managed client communication and took on the responsibility
+            of teaching and onboarding new interns.
           </p>
           <div className="about-separation-bar"></div>
           <h4>Intern at Beebit - 2024 (Full-Stack Developer)</h4>
@@ -43,6 +45,12 @@ function AboutMe() {
             Learned the use of React, NestJS, Cypress and Directus, I learn
             about hexagonal architecture as well, building a project in the
             process. (STAFKO)
+          </p>
+          <div className="about-separation-bar"></div>
+          <h4>Intern at Guadalinfo Padul - 2021 (Web Development)</h4>
+          <p>
+            I get a lot of knowledge about the use of HTML and CSS, certificated
+            from Google.
           </p>
         </div>
         <div className="col-lg-6 col-12 d-flex flex-column align-items-center justify-content-center text-center about-col">
