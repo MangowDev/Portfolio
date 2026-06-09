@@ -4,12 +4,10 @@ import { FaFlutter, FaPhp, FaReact, FaWordpress } from "react-icons/fa6";
 import { GrMysql } from "react-icons/gr";
 import { SiSpring, SiClaude, SiContentful } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
-import FallingStars from "../utils/FallingStars";
 
 function Main() {
   return (
     <main className="container main-container">
-      <FallingStars />
       <div className="row justify-content-center main-row">
         <div className="col-lg-6 col-12 d-flex flex-column align-items-left justify-content-center text-left main-first-col">
           <div className="mangodev-div">

@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import FallingStars from "./utils/FallingStars";
 import { useEffect, useState } from "react";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
 
   return (
     <Router>
+      <FallingStars />
       <Routes>
         <Route
           path="/"

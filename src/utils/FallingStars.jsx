@@ -36,7 +36,12 @@ const FallingStars = () => {
     });
   }, []);
 
-  return <canvas ref={canvasRef} style={{ position: "fixed", top: 0, left: 0, zIndex: -1 }}></canvas>;
+  return (
+    <canvas
+      ref={canvasRef}
+      style={{ position: "fixed", top: 0, left: 0, zIndex: 0, pointerEvents: "none" }}
+    ></canvas>
+  );
 };
 
 export default FallingStars;
