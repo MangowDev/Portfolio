@@ -1,6 +1,6 @@
 import "./Main.css";
-import { FaBootstrap, FaJava, FaJs } from "react-icons/fa";
-import { FaFlutter, FaPhp, FaReact, FaWordpress } from "react-icons/fa6";
+import { FaJava, FaJs } from "react-icons/fa";
+import { FaFlutter, FaPhp, FaPython, FaReact, FaWordpress } from "react-icons/fa6";
 import { GrMysql } from "react-icons/gr";
 import { SiSpring, SiClaude, SiContentful } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
@@ -85,9 +85,9 @@ function Main() {
                 </a>
               </div>
               <div className="col-lg-3 col-12 d-flex flex-column align-items-center justify-content-center text-center tools-col">
-                <FaBootstrap></FaBootstrap>
-                <h4>Bootstrap</h4>
-                <a href="https://getbootstrap.com/">
+                <FaPython></FaPython>
+                <h4>Python</h4>
+                <a href="https://www.python.org/">
                   <button className="see-more-button">See More</button>
                 </a>
               </div>
