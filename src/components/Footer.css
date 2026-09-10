@@ -45,30 +45,3 @@ footer p {
     color: #06a1b3;
     transition: 0.3s;
 }
-
-.up-button {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    z-index: 9999;
-    background-color: #1F3A57;
-    border-radius: 15px;
-    padding: 14px;
-    transition: 0.3s;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.up-button svg{
-    font-size: 25px;
-}
-
-.up-button svg:hover{
-    color: #CDDBFA;
-}
-
-.up-button:hover{
-    cursor: pointer;
-    background-color: #334f6b;
-    transition: 0.3s;
-}

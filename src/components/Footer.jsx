@@ -1,5 +1,4 @@
 import {
-  FaArrowUp,
   FaGithub,
   FaInstagram,
   FaLinkedin,
@@ -9,9 +8,6 @@ import logo from "../assets/images/MangoLogo2.png";
 import "./Footer.css";
 
 function Footer() {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
 
   return (
     <footer>
@@ -35,9 +31,6 @@ function Footer() {
         <a href="www.linkedin.com/in/ángel-robles-76784a313">
           <FaLinkedin />
         </a>
-        <div className="up-button" onClick={scrollToTop}>
-          <FaArrowUp />
-        </div>
       </div>
     </footer>
   );

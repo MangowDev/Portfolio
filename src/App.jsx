@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import ScrollToTop from "./components/ScrollToTop";
 import FallingStars from "./utils/FallingStars";
 import { useEffect, useState } from "react";
 
@@ -58,6 +59,7 @@ function App() {
           }
         />
       </Routes>
+      <ScrollToTop />
     </Router>
   );
 }
