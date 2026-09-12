@@ -26,25 +26,24 @@
   margin-bottom: 30px;
 }
 
-.projects-row1{
+.projects-row1 {
   border-bottom: 4px solid #06a1b3;
 }
 
-.projects-row2{
+.projects-row2 {
   border-top: 4px solid #06a1b3;
 }
 
-
-.projects-row1  .project-col {
+.projects-row1 .project-col {
   background-color: #23465e;
 }
 
 .projects-row1 .project-col:nth-of-type(2) {
-  background-color: #2B6B96;
+  background-color: #2b6b96;
 }
 
 .projects-row1 .project-col:nth-of-type(3) {
-  background-color: #2697C8;
+  background-color: #2697c8;
 }
 
 .projects-row1 .project-col:nth-of-type(4) {
@@ -56,47 +55,48 @@
 }
 
 .projects-row2 .project-col:nth-of-type(3) {
-  background-color: #2B6B96;
+  background-color: #2b6b96;
 }
 
 .projects-row2 .project-col:nth-of-type(2) {
-  background-color: #2697C8;
+  background-color: #2697c8;
 }
 
 .projects-row2 .project-col {
   background-color: #06a1b3;
 }
 
-
-.projects-row1 .project-col, 
+.projects-row1 .project-col,
 .projects-row2 .project-col {
   cursor: pointer;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .projects-row1 .project-col:nth-of-type(1):hover {
-  background-color: #2a5579; 
-  box-shadow: 0 4px 15px rgba(42, 85, 121, 0.7); 
+  background-color: #2a5579;
+  box-shadow: 0 4px 15px rgba(42, 85, 121, 0.7);
 }
 
 .projects-row1 .project-col:nth-of-type(2):hover {
-  background-color: #1f4f7f; 
-  box-shadow: 0 4px 15px rgba(31, 79, 127, 0.7); 
+  background-color: #1f4f7f;
+  box-shadow: 0 4px 15px rgba(31, 79, 127, 0.7);
 }
 
 .projects-row1 .project-col:nth-of-type(3):hover {
-  background-color: #1f7aa3; 
-  box-shadow: 0 4px 15px rgba(31, 122, 163, 0.7); 
+  background-color: #1f7aa3;
+  box-shadow: 0 4px 15px rgba(31, 122, 163, 0.7);
 }
 
 .projects-row1 .project-col:nth-of-type(4):hover {
   background-color: #05828f;
-  box-shadow: 0 4px 15px rgba(5, 130, 143, 0.7); 
+  box-shadow: 0 4px 15px rgba(5, 130, 143, 0.7);
 }
 
 .projects-row2 .project-col:nth-of-type(4):hover {
-  background-color: #2a5579; 
-  box-shadow: 0 4px 15px rgba(42, 85, 121, 0.7); 
+  background-color: #2a5579;
+  box-shadow: 0 4px 15px rgba(42, 85, 121, 0.7);
 }
 
 .projects-row2 .project-col:nth-of-type(3):hover {
@@ -110,10 +110,9 @@
 }
 
 .projects-row2 .project-col:hover {
-  background-color: #05828f; 
-  box-shadow: 0 4px 15px rgba(5, 130, 143, 0.7); 
+  background-color: #05828f;
+  box-shadow: 0 4px 15px rgba(5, 130, 143, 0.7);
 }
-
 
 .project-col h3 {
   color: #e1edfa;
@@ -131,10 +130,9 @@
   font-weight: 400;
 }
 
-.project-viewer-row{
-    margin: 100px 0;
+.project-viewer-row {
+  margin: 100px 0;
 }
-
 
 .image-container-viewer {
   position: relative;
@@ -142,7 +140,9 @@
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 6px 6px 6px 6px rgb(17, 33, 50);
-  transition: transform 0.3s ease, margin 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    margin 0.3s ease;
   width: 100%;
 }
 
@@ -166,27 +166,26 @@
 }
 
 .image-container-viewer:hover .caption {
-  opacity: 1; 
+  opacity: 1;
 }
 
 .image-container-viewer:hover {
   transform: scale(1.05);
-  margin-right: 20px; 
+  margin-right: 20px;
 }
 
-.project-viewer-col h1{
+.project-viewer-col h1 {
   margin: 100px 0;
   color: rgb(205, 219, 250);
 }
 
-
-.project-viewer-col2 h2{
+.project-viewer-col2 h2 {
   color: rgb(205, 219, 250);
   margin-left: 20px;
   font-size: 40px;
 }
 
-.project-viewer-col2 p{
+.project-viewer-col2 p {
   width: 100%;
   font-family: "Poppins", serif;
   color: rgb(205, 219, 250);
@@ -195,7 +194,7 @@
   font-size: 18px;
 }
 
-.project-viewer-col2 a{
+.project-viewer-col2 a {
   text-decoration: none;
   font-family: "Play", serif;
   color: rgb(222, 236, 251);
@@ -203,17 +202,48 @@
   font-size: 18px;
 }
 
-.project-viewer-col2 svg{
+.project-viewer-col2 svg {
   font-size: 25px;
   margin-right: 5px;
   text-shadow: 2px 2px 2px rgb(2, 16, 30);
 }
 
-.project-viewer-col2 .see-more-button{
+.project-viewer-col2 .see-more-button {
   margin-left: 20px;
 }
 
-.project-viewer-col2 .about-separation-bar{
+.project-viewer-col2 .about-separation-bar {
   margin-left: 50px;
   margin-right: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-projects-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .image-container-viewer {
+    width: 108%;
+    margin-bottom: 40px;
+  }
+
+  .image-container-viewer:hover {
+    margin-right: 0;
+  }
+
+  .project-viewer-col2 h2 {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .project-viewer-col2 p,
+  .project-viewer-col2 .see-more-button {
+    margin-left: 0;
+  }
+
+  .project-viewer-col2 .about-separation-bar {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

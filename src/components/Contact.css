@@ -1,96 +1,129 @@
-.main-contact-container{
-    margin-top: 80px;
-    margin-bottom: 80px;
-    display: flex;
+.main-contact-container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
 }
-.contact-col h1{
-    color: rgb(205, 219, 250);
-    font-size: 50px;
-}
-
-.contact-col p{
-    margin-top: 20px;
-    margin-bottom: 40px;
-    font-size: 22px;
-    color: rgb(205, 219, 250);
+.contact-col h1 {
+  color: rgb(205, 219, 250);
+  font-size: 50px;
 }
 
-.social-contact-col a{
-    font-family: "Poppins", serif;
-    font-size: 23px;
-    color: #CDDBFA;
-    text-decoration: none;
-    margin-bottom: 15px;
-    transition: 0.3s;
+.contact-col p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 22px;
+  color: rgb(205, 219, 250);
 }
 
-.social-contact-col a:hover{
-    color: #06a1b3;
-    transition: 0.3s;
+.social-contact-col a {
+  font-family: "Poppins", serif;
+  font-size: 23px;
+  color: #cddbfa;
+  text-decoration: none;
+  margin-bottom: 15px;
+  transition: 0.3s;
 }
 
-.social-contact-col svg{
-    margin-bottom: 5px;
-    margin-right: 10px;
+.social-contact-col a:hover {
+  color: #06a1b3;
+  transition: 0.3s;
 }
 
-.contact-col form{
-    margin-left: 50px;
+.social-contact-col svg {
+  margin-bottom: 5px;
+  margin-right: 10px;
 }
 
-.contact-col input{
-    margin-bottom: 25px;
-    padding: 10px;
-    background-color: #1F3A57;
-    outline: none;
-    width: 100%;
-    border: 1px solid #3F75AE;
-    color: #CDDBFA;
-    font-family: "Poppins", serif;
+.contact-col form {
+  margin-left: 50px;
 }
 
-.contact-col textarea{
-    background-color: #1F3A57;
-    outline: none;
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #3F75AE;
-    resize: none;
-    color: #CDDBFA;
-    font-family: "Poppins", serif;
-    height: 200px;
+.contact-col input {
+  margin-bottom: 25px;
+  padding: 10px;
+  background-color: #1f3a57;
+  outline: none;
+  width: 100%;
+  border: 1px solid #3f75ae;
+  color: #cddbfa;
+  font-family: "Poppins", serif;
 }
 
-.contact-col span{
-    margin-top: 30px;
-    color: #CDDBFA;
-    font-size: 20px;
+.contact-col textarea {
+  background-color: #1f3a57;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #3f75ae;
+  resize: none;
+  color: #cddbfa;
+  font-family: "Poppins", serif;
+  height: 200px;
 }
 
-.contact-col input::placeholder{
-    color: #607BB7;
+.contact-col span {
+  margin-top: 30px;
+  color: #cddbfa;
+  font-size: 20px;
 }
 
-.contact-col textarea::placeholder{
-    color: #607BB7;
+.contact-col input::placeholder {
+  color: #607bb7;
+}
+
+.contact-col textarea::placeholder {
+  color: #607bb7;
 }
 
 .contact-col input[type="submit"] {
-    font-family: "Poppins", serif;
-    width: 100%;
-    color: #CDDBFA;
-    background-color: #33659a;
-    text-shadow: 3px 3px 3px  rgb(2, 16, 30);
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 20px;
-    transition: 0.3s;
+  font-family: "Poppins", serif;
+  width: 100%;
+  color: #cddbfa;
+  background-color: #33659a;
+  text-shadow: 3px 3px 3px rgb(2, 16, 30);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  transition: 0.3s;
 }
 
 .contact-col input[type="submit"]:hover {
-    background-color: #4990dc;
-    transition: 0.3s;
+  background-color: #4990dc;
+  transition: 0.3s;
 }
 
+@media screen and (max-width: 768px) {
+  .contact-col form {
+    margin-left: 0;
+    margin-top: 40px;
+    padding: 0 15px;
+  }
 
+  .main-contact-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0 15px;
+  }
+
+  .contact-col h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .contact-col p,
+  .contact-col span {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .social-contact-col {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .social-contact-col a {
+    font-size: 20px;
+  }
+}
