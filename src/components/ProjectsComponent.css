@@ -217,6 +217,24 @@
   margin-right: 30px;
 }
 
+@media screen and (max-width: 1100px) {
+  .project-col h3 {
+    font-size: 22px;
+  }
+
+  .project-col p {
+    font-size: 15px;
+  }
+
+  .project-viewer-col2 h2 {
+    font-size: 30px;
+  }
+
+  .project-viewer-col2 p {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .main-projects-container {
     padding-left: 15px;

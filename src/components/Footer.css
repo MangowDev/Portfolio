@@ -47,6 +47,17 @@ footer p {
   transition: 0.3s;
 }
 
+@media screen and (max-width: 1100px) {
+  .social-media-div {
+    margin-left: 20px;
+    margin-right: 70px;
+  }
+
+  footer p {
+    font-size: 17px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   footer {
     flex-direction: column;

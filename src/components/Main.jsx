@@ -1,6 +1,12 @@
 import "./Main.css";
 import { FaJava, FaJs } from "react-icons/fa";
-import { FaFlutter, FaPhp, FaPython, FaReact, FaWordpress } from "react-icons/fa6";
+import {
+  FaFlutter,
+  FaPhp,
+  FaPython,
+  FaReact,
+  FaWordpress,
+} from "react-icons/fa6";
 import { GrMysql } from "react-icons/gr";
 import { SiSpring, SiClaude, SiContentful } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
@@ -37,10 +43,11 @@ function Main() {
             of innovation.
           </p>
           <p>
-            Furthermore, I closely follow the revolution of Artificial Intelligence and 
-            its role in driving digital innovation. I actively integrate AI-driven tools 
-            and methodologies into my development workflow, constantly adapting to 
-            new paradigms to build smarter, more efficient, and future-proof solutions.
+            Furthermore, I closely follow the revolution of Artificial
+            Intelligence and its role in driving digital innovation. I actively
+            integrate AI-driven tools and methodologies into my development
+            workflow, constantly adapting to new paradigms to build smarter,
+            more efficient, and future-proof solutions.
           </p>
         </div>
         <div className="col-lg-6 col-12 d-flex flex-column align-items-left justify-content-center text-left main-second-col">
