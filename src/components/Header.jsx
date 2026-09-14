@@ -134,7 +134,7 @@ function Header(props) {
             />
             <div className={`mobile-nav-drawer ${isOpen ? "open" : ""}`}>
               <div className="drawer-header">
-                <span className="drawer-title">Navegación</span>
+                <span className="drawer-title">Navigation</span>
                 <button
                   className="drawer-close-btn"
                   onClick={() => setIsOpen(false)}
